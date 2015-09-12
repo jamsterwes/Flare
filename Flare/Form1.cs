@@ -3,7 +3,6 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.IO;
 using ScintillaNET;
-using System.Collections.Generic;
 
 namespace WesPythonIDE
 {
@@ -264,10 +263,6 @@ namespace WesPythonIDE
             {
                 saveFile(false);
             }
-            else
-            {
-                /** Do nothing... **/
-            }
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
@@ -289,24 +284,6 @@ namespace WesPythonIDE
             startInfo.Arguments = "/C " + command;
             process.StartInfo = startInfo;
             process.Start();
-        }
-
-        private void cToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cToolStripMenuItem_TextChanged(object sender, EventArgs e) {
-
-        }
-
-        private void runToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
