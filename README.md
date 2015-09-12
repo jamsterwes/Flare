@@ -1,5 +1,5 @@
 # Flare
-![](https://github.com/jamsterwes/flare/Flob/master/images/flare.png)
+![](https://github.com/jamsterwes/Flare/blob/master/flare.png)
 A simple syntax-highlighting text editor.
 
 Supported Languages:
